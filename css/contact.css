@@ -1,0 +1,39 @@
+.contact-form {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0 35px;
+  padding-top: 150px;
+}
+
+.contact-form h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 600;
+  padding: 12px 0px;
+  letter-spacing: 3px;
+}
+
+.contact-form form div {
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form form div input {
+  width: 18vw;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+#emailHelp {
+  font-size: 14px;
+  color: darkblue;
+  margin: 0px 5px;
+  padding: 3px 0px;
+}
+
+.contact-form form div textarea {
+  width: 18vw;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+}
