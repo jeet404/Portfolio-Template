@@ -1,0 +1,35 @@
+.blog-container h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin: 28px;
+}
+
+.blogItem {
+  margin: 20px;
+  padding: 10px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  transition: 0.5s;
+}
+
+.blogItem:hover {
+  transition: 0.5s;
+  border-radius: 20px;
+  border-color: black;
+  box-shadow: 2px 5px 8px 2px black;
+}
+
+.blogItem h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.blogItem p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btns button {
+  padding: 8px !important;
+  font-size: medium !important;
+}
