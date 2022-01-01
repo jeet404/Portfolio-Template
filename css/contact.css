@@ -40,11 +40,15 @@
 
 .btns {
   margin: 20px;
+  width: 20%;
+  display: flex;
 }
 
 .btns button {
   border: 0px solid;
-  width: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   padding: 10px 14px;
   border-bottom-left-radius: 16px;
   border-top-right-radius: 16px;
