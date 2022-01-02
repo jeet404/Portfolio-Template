@@ -6,9 +6,9 @@
 
 .contact-form h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 3px;
   font-weight: 600;
   padding: 12px 0px;
-  letter-spacing: 3px;
 }
 
 .contact-form form div {
