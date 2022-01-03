@@ -1,0 +1,31 @@
+.my-intro {
+  height: 58vh;
+  width: 70vw;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-me h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin: 28px;
+}
+
+.about-me p {
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.intro-img img {
+  height: 58vh;
+  border-radius: 50%;
+}
