@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 .my-intro {
-  height: 58vh;
+  height: 52vh;
   width: 70vw;
-  margin: 50px auto;
+  margin: 30px auto;
+  margin-bottom: 0px;
   display: flex;
   justify-content: space-around;
 }
@@ -12,20 +15,60 @@
   flex-direction: column;
 }
 
-.about-me h1 {
+.about-me h1,
+.my-skills h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   letter-spacing: 3px;
-  font-weight: 600;
-  margin: 28px;
+  font-weight: 700;
+  margin: 25px;
 }
 
-.about-me p {
-  margin-top: 10px;
-  font-size: 22px;
+.about-me p,
+.my-skills p {
+  margin: 10px 25px;
+  font-size: 20px;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .intro-img img {
-  height: 58vh;
+  height: 52vh;
   border-radius: 50%;
+}
+
+.my-skills {
+  height: 58vh;
+  width: 70vw;
+  padding: 6px;
+  background: lightblue;
+  border-radius: 10px;
+  margin: 30px auto;
+  margin-bottom: 0px;
+}
+
+.skill-container {
+  margin: 45px 16px;
+  padding: 10px 25px;
+  width: 45%;
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+  font-weight: 700;
+  float: left;
+}
+
+.skill-container meter{
+  float: right;
+  height: 35px;
+  width: 45%;
+}
+
+.sk-img{
+  display: flex;
+  justify-content: center;
+  float: left;
+  width: 45%;
+}
+
+.sk-img img{
+  height: 350px;
+  width: 350px;
 }
