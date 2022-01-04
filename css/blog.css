@@ -33,3 +33,8 @@
   padding: 8px !important;
   font-size: medium !important;
 }
+
+.btns button:hover {
+  color: black;
+  background: lightblue;
+}

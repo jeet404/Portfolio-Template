@@ -1,0 +1,64 @@
+.info-container {
+  height: 58vh;
+  width: 70vw;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dev-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 50px;
+  font-family: "Oooh Baby", cursive;
+}
+
+.name {
+  font-size: 65px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+}
+
+.about {
+  font-size: 40px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 2px;
+}
+
+.moreabout {
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+.btns button {
+  border: 0px solid;
+  padding: 10px 14px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: white;
+  background: dodgerblue;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btns button:hover {
+  color: black;
+  background: lightblue;
+}
+
+.dev-pic img {
+  height: 58vh;
+  border-radius: 50%;
+}

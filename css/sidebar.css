@@ -1,0 +1,21 @@
+.sidebar {
+  background: lightgray;
+  font-family: "Josefin Sans", sans-serif;
+  width: 435px;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 40px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 35px 0px;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}

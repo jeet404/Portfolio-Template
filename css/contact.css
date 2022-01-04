@@ -60,3 +60,8 @@
   cursor: pointer;
   transition: 0.5s;
 }
+
+.btns button:hover {
+  color: black;
+  background: lightblue;
+}
