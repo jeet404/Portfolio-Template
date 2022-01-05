@@ -1,8 +1,9 @@
 .sidebar {
+  position: absolute;
   background: lightgray;
   font-family: "Josefin Sans", sans-serif;
-  width: 435px;
-  height: 120vh;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
 }
 
 .sidebar nav {
@@ -18,4 +19,10 @@
 .sidebar nav li a {
   text-decoration: none;
   color: black;
+}
+
+.sidebar-hide {
+  transform: translate(-443px, 0px);
+  position: absolute;
+  transition: 0.5s;
 }

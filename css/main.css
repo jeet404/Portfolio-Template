@@ -8,9 +8,15 @@
   margin: 0;
 }
 
+body{
+  background: cadetblue;
+  color: black;
+}
+
 .main {
   width: 85%;
   height: 100vh;
+  margin: 0px 150px;
 }
 
 .container {

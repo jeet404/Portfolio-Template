@@ -20,7 +20,7 @@
             </div>
             <div class="btns">
                 <a href="cv.txt" target="_blank"><button>Download CV</button></a>
-                <a href="/contact.php"><button>Contact Me</button></a>
+                <a href="contact.php"><button>Contact Me</button></a>
             </div>
         </div>
         <div class="dev-pic">

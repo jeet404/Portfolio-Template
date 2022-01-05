@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 .my-intro {
+  font-size: 16px;
   height: 52vh;
   width: 70vw;
   margin: 30px auto;
-  margin-bottom: 0px;
   display: flex;
   justify-content: space-around;
 }
@@ -13,10 +13,12 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 35vh;
 }
 
 .about-me h1,
 .my-skills h1 {
+  font-size: 1.8em;
   font-family: "Yanone Kaffeesatz", sans-serif;
   letter-spacing: 3px;
   font-weight: 700;
@@ -26,7 +28,7 @@
 .about-me p,
 .my-skills p {
   margin: 10px 25px;
-  font-size: 20px;
+  font-size: 1.2em;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -36,13 +38,12 @@
 }
 
 .my-skills {
-  height: 58vh;
+  height: 56vh;
   width: 70vw;
   padding: 6px;
-  background: lightblue;
+  background: darkcyan;
   border-radius: 10px;
-  margin: 30px auto;
-  margin-bottom: 0px;
+  margin: 25px auto;
 }
 
 .skill-container {
@@ -50,25 +51,24 @@
   padding: 10px 25px;
   width: 45%;
   font-family: "Indie Flower", cursive;
-  font-size: 25px;
+  font-size: 1.5em;
   font-weight: 700;
   float: left;
 }
 
-.skill-container meter{
-  float: right;
+.skill-container meter {
   height: 35px;
-  width: 45%;
+  width: 50%;
 }
 
-.sk-img{
+.sk-img {
   display: flex;
   justify-content: center;
   float: left;
   width: 45%;
 }
 
-.sk-img img{
+.sk-img img {
   height: 350px;
   width: 350px;
 }

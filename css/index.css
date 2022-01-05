@@ -10,28 +10,29 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-size: 16px;
 }
 
 .hello {
-  font-size: 50px;
+  font-size: 3em;
   font-family: "Oooh Baby", cursive;
 }
 
 .name {
-  font-size: 65px;
+  font-size: 3em;
   font-family: "Indie Flower", cursive;
   font-weight: 600;
 }
 
 .about {
-  font-size: 40px;
+  font-size: 2.5em;
   font-family: "Yanone Kaffeesatz", sans-serif;
   letter-spacing: 2px;
 }
 
 .moreabout {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 1.2em;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -47,7 +48,7 @@
   color: white;
   background: dodgerblue;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.5em;
   margin: 0px 3px;
   cursor: pointer;
   transition: 0.5s;
@@ -60,5 +61,20 @@
 
 .dev-pic img {
   height: 58vh;
-  border-radius: 50%;
+  border-radius: 35px;
+}
+
+.menu {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  transition: 0.5s;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  transition: 0.5s;
 }

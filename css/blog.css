@@ -1,4 +1,5 @@
 .blog-container h1 {
+  font-size: 2em;
   font-family: "Yanone Kaffeesatz", sans-serif;
   letter-spacing: 3px;
   font-weight: 600;
@@ -21,17 +22,19 @@
 }
 
 .blogItem h2 {
+  font-size: 1.4em;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .blogItem p {
+  font-size: 1em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .btns button {
   padding: 8px !important;
-  font-size: medium !important;
+  font-size: 1em !important;
 }
 
 .btns button:hover {

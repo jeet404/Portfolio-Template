@@ -1,8 +1,49 @@
 @media (max-width: 1000px) {
-    .dev-pic {
-      display: none;
-    }
-    .main {
-      margin: 20px 20px;
-    }
+  .dev-pic {
+    display: none;
   }
+  .main {
+    margin: 25px 20px;
+    height: 90vh;
+  }
+  .intro-img {
+    display: none;
+  }
+  .my-intro {
+    height: 37vh;
+    margin: 0px 0px;
+  }
+  .my-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45vh;
+    height: 65vh;
+  }
+  .skill-container {
+    float: none;
+    margin: 0px 0px;
+    padding: 0px 5px;
+    width: 30vh;
+  }
+  .skill-container meter {
+    float: none;
+    width: 35vh;
+  }
+  .sk-img img {
+    display: none;
+  }
+  .contact-form {
+    padding-top: 0px !important;
+  }
+  .contact-form form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .contact-form form div {
+    width: 100%;
+    text-align: center;
+  }
+}
