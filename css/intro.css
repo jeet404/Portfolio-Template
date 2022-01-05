@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 35vh;
+  height: 30vh;
 }
 
 .about-me h1,
@@ -33,12 +33,12 @@
 }
 
 .intro-img img {
-  height: 52vh;
+  height: 45vh;
   border-radius: 50%;
 }
 
 .my-skills {
-  height: 56vh;
+  height: 50vh;
   width: 70vw;
   padding: 6px;
   background: darkcyan;
@@ -47,7 +47,7 @@
 }
 
 .skill-container {
-  margin: 45px 16px;
+  margin: 20px 16px;
   padding: 10px 25px;
   width: 45%;
   font-family: "Indie Flower", cursive;
@@ -63,12 +63,13 @@
 
 .sk-img {
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
+  overflow: hidden;
   float: left;
   width: 45%;
 }
 
 .sk-img img {
-  height: 350px;
-  width: 350px;
+  height: 330px;
+  width: 330px;
 }
