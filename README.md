@@ -1,6 +1,6 @@
 # My-Portfolio-Site
 
-This project is my portfolio site.
+This project is for students who have to learn making responsive portfolio site.
 <hr>
 
 - Home Page :
