@@ -11,6 +11,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/blog.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/intro.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/services.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/contact.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/responsive.css'>
     <script src='js/main.js'></script>
 </head>
